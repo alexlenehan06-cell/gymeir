@@ -1,4 +1,4 @@
-function toggle(el) {
+function openPanel(el) {
   const panel = el.nextElementSibling;
   if (panel.style.display === "block") {
     panel.style.display = "none";

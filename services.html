@@ -18,23 +18,22 @@
 </nav>
 <header><h1>Our Services</h1></header>
 <section>
-  <div class="accordion" onclick="openPanel(this)">🏋️ Weight Training <span>+</span></div>
+  <div class="accordion" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">🏋️ Weight Training</div>
   <div class="panel">
     <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=700" alt="Weight Training">
     <p>Full free weights area and machine zone available at all locations.</p>
   </div>
-  <div class="accordion" onclick="openPanel(this)">🧘 Group Classes <span>+</span></div>
+  <div class="accordion" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">🧘 Group Classes</div>
   <div class="panel">
     <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=700" alt="Group Classes">
     <p>Join our weekly yoga, HIIT and spin classes led by certified coaches.</p>
   </div>
-  <div class="accordion" onclick="openPanel(this)">🥊 Personal Training <span>+</span></div>
+  <div class="accordion" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">🥊 Personal Training</div>
   <div class="panel">
     <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=700" alt="Personal Training">
     <p>One-to-one sessions tailored to your goals and fitness level.</p>
   </div>
 </section>
 <footer><p>© 2026 Gym Éire | gymeire.ie</p></footer>
-<script src="main.js"></script>
 </body>
 </html>
